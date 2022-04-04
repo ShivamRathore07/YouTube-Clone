@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="./logoAndImages/logo.png" class="logo" alt="">
+        <div class="serch_box">
+            <input type="text" id="serch_bar" placeholder="Search">
+            <button onclick="serchVideo()" class="serch_btn"><img src="./logoAndImages/search.png" alt=""></button>
+        </div>
+        <div class="user_opt">
+            <img src="./logoAndImages/video.png" class="icon" alt="">
+            <img src="./logoAndImages/grid.png" class="icon" alt="">
+            <img src="./logoAndImages/bell.png" class="icon" alt="">
+            <div class="user_dp">
+                <img src="./logoAndImages/WhatsApp Image 2022-03-15 at 3.26.43 PM.jpeg" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="side_bar">
+        <a href="#" class="links active"><img src="./logoAndImages/home.png" alt="">Home</a>
+        <a href="#" class="links"><img src="./logoAndImages/explore.png" alt="">explore</a>
+        <a href="#" class="links"><img src="./logoAndImages/subscription.png" alt="">subscription</a>
+        <hr class="sepratr">
+        <a href="#" class="links"><img src="./logoAndImages/library.png" alt="">library</a>
+        <a href="#" class="links"><img src="./logoAndImages/history.png" alt="">history</a>
+        <a href="#" class="links"><img src="./logoAndImages/your-video.png" alt="">your-video</a>
+        <a href="#" class="links"><img src="./logoAndImages/watch-later.png" alt="">watch-later</a>
+        <a href="#" class="links"><img src="./logoAndImages/show more.png" alt="">show more</a>
+    </div>
+    <div class="filters">
+        <button onclick="serchVideo()" class="filter active">All</button>
+        <button onclick="trendingVideos()" class="filter">Css</button>
+        <button onclick="trendingVideos()" class="filter">Web devlopment</button>
+        <button onclick="trendingVideos()" class="filter">Python</button>
+        <button onclick="trendingVideos()" class="filter">Entertainment</button>
+        <button onclick="trendingVideos()" class="filter">Marvals</button>
+        <button onclick="trendingVideos()" class="filter">JavaScript</button>
+        <button onclick="trendingVideos()" class="filter">Artificial intelligence</button>
+        <button onclick="trendingVideos()" class="filter">Machine Learning</button>
+        <button onclick="trendingVideos()" class="filter">Trending</button>
+    </div>
+    <div class="container">
+    </div>
+</body>
+
+</html>
+<script src="./index.js"></script>
